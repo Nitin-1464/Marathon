@@ -32,5 +32,11 @@
 .box .box-1 div:nth-child(2){
   transform: rotate(90deg);
 }
-
-
+.box-3{
+    position: absolute ;
+   background-color: rgb(10, 38, 124);
+   border-radius: 5px 5%;
+     top: 165%;
+     font-size: 500%;
+   left: 40rem;
+}
