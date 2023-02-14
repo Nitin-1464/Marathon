@@ -47,3 +47,11 @@
     left: 45rem;
     font-size: 200%;
 }
+
+.box-5{
+    position: absolute;
+   padding-left: 60%;
+   padding-right: 20%;
+   color:blue;
+
+}
