@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  text-align:center;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+.box{
+  position: absolute;
+  top: 20px;
+  left: 47rem;
+  width: 290px;
+  display: flex; 
+  gap: 110px;
+  align-items: center;
+}
+
+.box p{
+  color: rgba(0, 42, 255, 0.834);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.box .box-1 div{
+  position: absolute; 
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  padding: 10px 50px; 
+  background-color: aqua;
+}
+
+.box .box-1 div:nth-child(2){
+  transform: rotate(90deg);
+}
+
+
